@@ -1,16 +1,121 @@
-# React + Vite
+# 🚰 EquiFlow – Smart Water Pressure Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+EquiFlow is an IoT-enabled smart water infrastructure management system designed to improve municipal water distribution through intelligent pressure control, leak detection, automated valve operations, and role-based monitoring.
 
-Currently, two official plugins are available:
+The system aims to reduce water wastage, improve supply reliability, minimize non-revenue water, and support smart city initiatives through data-driven decision-making.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌟 Problem Statement
 
-## React Compiler
+Urban water distribution networks often face challenges such as:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Uneven water pressure across different zones
+* Delayed leak detection and response
+* Water wastage due to pipeline failures
+* High dependency on manual monitoring
+* Non-revenue water losses
+* Limited visibility into field operations
 
-## Expanding the ESLint configuration
+EquiFlow addresses these challenges through automation, monitoring, and intelligent control mechanisms.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Key Features
+
+### 👤 Role-Based Access Control
+
+* Centralized Admin Dashboard
+* Zone-wise (Prabhag-wise) engineer assignment
+* Restricted access for field operators
+* Activity monitoring and surveillance
+
+### 💧 Smart Water Pressure Management
+
+* Partial and full valve control
+* Pressure balancing across elevation zones
+* Improved water availability for higher-altitude regions
+
+### 🚨 Intelligent Leak Detection
+
+* Multi-condition leak detection logic
+* Automatic trip safeguard mechanism
+* Automated valve shutdown near leak locations
+* Reduction in water wastage
+
+### 🏥 Emergency Infrastructure Protection
+
+Critical facilities such as:
+
+* Hospitals
+* Fire Stations
+
+are excluded from automatic shutdown logic.
+
+Instead, the system generates alerts for on-duty officers to ensure uninterrupted water availability.
+
+### 🌍 Water Quality Monitoring
+
+* Chlorine level monitoring
+* Corrosion and pipe burst risk indication
+* Improved public health awareness
+
+### 🔒 Secure Authentication
+
+* Cloud-based architecture
+* OTP-based login
+* Access restricted to administrator-approved users
+
+---
+
+## 🔩 IoT & Infrastructure Integration
+
+EquiFlow includes a conceptual IoT control layer capable of:
+
+* Valve automation
+* Sensor integration
+* Real-time monitoring
+* Leak response workflows
+
+The system is designed to:
+
+* Integrate with existing SCADA infrastructure
+* Act as a cost-effective augmentation layer
+* Support future smart-city deployments
+
+---
+
+## 📈 Future Scope
+
+* WhatsApp-based citizen notification bot
+* Water supply schedule alerts
+* Citizen leak reporting system
+* Predictive maintenance using AI/ML
+* Advanced analytics dashboard
+* Smart City platform integration
+
+---
+
+## 🛠️ Technology Stack
+
+### Frontend
+
+* React.js
+* Tailwind CSS
+* Vite
+
+### Backend & Services
+
+* Firebase Authentication
+* Cloud Database Services
+
+### Infrastructure
+
+* IoT-based monitoring architecture
+* Sensor-driven control logic
+
+---
+
+## 🔗 Live Demo
+
+https://equiflow-solapur.netlify.app
+
+---
