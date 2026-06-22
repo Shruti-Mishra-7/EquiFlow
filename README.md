@@ -24,7 +24,7 @@ technical-documentation/
 ### 🎥 Demo Video
 
 Demo video link:
-(Paste Drive/YouTube link here)
+https://drive.google.com/file/d/1wV7MPJG6Q6aZZ_hSdvMIFP5MR749276F/view?usp=drive_link
 
 ### 📐 Architecture Diagram
 
