@@ -4,6 +4,43 @@ EquiFlow is an IoT-enabled smart water infrastructure management system designed
 
 The system aims to reduce water wastage, improve supply reliability, minimize non-revenue water, and support smart city initiatives through data-driven decision-making.
 
+## 📦 Submission Deliverables
+
+### 🌐 Live Demo
+
+https://equiflow-solapur.netlify.app
+
+### 📄 Technical Documentation
+
+* EquiFlow_Report.pdf
+* EquiFlow_Presentation.pdf
+
+Location:
+
+```text
+technical-documentation/
+```
+
+### 🎥 Demo Video
+
+Demo video link:
+(Paste Drive/YouTube link here)
+
+### 📐 Architecture Diagram
+
+Included in the technical documentation package.
+
+### 🛠 Repository Contents
+
+```text
+src/                      Frontend source code
+public/                   Static assets
+EquiFlow_ESP32_Final.ino  IoT controller code
+technical-documentation/  Report & Presentation
+README.md                 Project overview
+```
+
+
 ## 🌟 Problem Statement
 
 Urban water distribution networks often face challenges such as:
